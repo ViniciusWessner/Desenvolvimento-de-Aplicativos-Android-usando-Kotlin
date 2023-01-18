@@ -1,7 +1,7 @@
 package ControleDeFluxos
 
 fun main() {
-    var s = "kotlin"
+    val s = "kotlin"
     var i = 0
     while (i < s.length ){
         print("V")

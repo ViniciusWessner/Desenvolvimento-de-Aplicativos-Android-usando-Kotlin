@@ -20,7 +20,7 @@ fun exec2(){
 }
 
 fun exec3(){
-    var i = 0
+    val i = 0
     for (i in 1..50)
         if (i%5 ==0){
             continue
@@ -30,7 +30,7 @@ fun exec3(){
 
 fun exec4(){
     var soma = 0
-    var i = 0
+    val i = 0
     for (i in 1..500){
         soma += i
     }

@@ -79,7 +79,7 @@ fun portaria() {
     }
 
     println("Qual o código do convite?: ")
-    var codigoconvite = readLine()
+    val codigoconvite = readLine()
 
     if (codigoconvite != null && codigoconvite != "") {
         codigoconvite.lowercase()

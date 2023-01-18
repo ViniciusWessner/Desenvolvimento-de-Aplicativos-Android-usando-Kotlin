@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Iniciando repositório">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsv_kotlin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ControleDeFluxos/Comparadores.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ControleDeFluxos/For.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ControleDeFluxos/PraticaIF_ELSE.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ControleDeFluxos/Read.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ControleDeFluxos/When.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ControleDeFluxos/continue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ControleDeFluxos/dowhile.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ControleDeFluxos/if.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ControleDeFluxos/if_Else.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ControleDeFluxos/read" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ControleDeFluxos/while.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercicios/Desafio.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercicios/Exercicio1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercicios/Exercicio2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercicios/Exercicio4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercicios/exercicio3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercicios/exercicio5.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Funcoes/EstruturaFuncao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Funcoes/Funcoes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Funcoes/FuncoesMatematicas.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Funcoes/FuncoesString.kt" afterDir="false" />
+    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Finalizando o Contole de fluxo">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercicios/exception.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/excessoes/ElvisOperator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/excessoes/Let.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/excessoes/TryCatch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/excessoes/null.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ControleDeFluxos/while.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ControleDeFluxos/while.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Exercicios/Desafio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Exercicios/Desafio.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Exercicios/Exercicio4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Exercicios/Exercicio4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Exercicios/exercicio3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Exercicios/exercicio3.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2Jn0lh9xiw8KgZ5Qj2GfaZvEkZE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -60,17 +47,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "Console"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.DesafioKt">
-    <configuration name="ContinueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ControleDeFluxos.ContinueKt" />
-      <module name="dsv_kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.ExceptionKt">
     <configuration name="DesafioKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicios.DesafioKt" />
       <module name="dsv_kotlin" />
@@ -78,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DowhileKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ControleDeFluxos.DowhileKt" />
+    <configuration name="ExceptionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicios.ExceptionKt" />
       <module name="dsv_kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,13 +83,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TryCatchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excessoes.TryCatchKt" />
+      <module name="dsv_kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ExceptionKt" />
+        <item itemvalue="Kotlin.TryCatchKt" />
         <item itemvalue="Kotlin.DesafioKt" />
         <item itemvalue="Kotlin.Exercicio5Kt" />
         <item itemvalue="Kotlin.Exercicio4Kt" />
-        <item itemvalue="Kotlin.ContinueKt" />
-        <item itemvalue="Kotlin.DowhileKt" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672698782388</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finalizando o Contole de fluxo">
+      <created>1673972224934</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673972224934</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,7 +139,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Iniciando repositório" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iniciando repositório" />
+    <MESSAGE value="Finalizando o Contole de fluxo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizando o Contole de fluxo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

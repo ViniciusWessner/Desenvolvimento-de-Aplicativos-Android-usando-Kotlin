@@ -5,10 +5,10 @@ fun main() {
     //paula 500 somente (0,8)
     //quanto tempo paula supera o patrimonio??
 
-    var salario = 10000f
+    val salario = 10000f
     var patana = 0f
     var patpaula = 0f
-    var mes = 0
+    val mes = 0
     
 
     do {
