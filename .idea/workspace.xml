@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Finalizando o Contole de fluxo">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercicios/exception.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/excessoes/ElvisOperator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/excessoes/Let.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/excessoes/TryCatch.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/excessoes/null.kt" afterDir="false" />
+    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Exceções e tratamento de nulls">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/AnyUnitNothing/AnyUnitNothing.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exercicios/Desafio01.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MaisSobreParametros/Generics.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MaisSobreParametros/Parametros.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MaisSobreParametros/RecebendoParametros.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ControleDeFluxos/while.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ControleDeFluxos/while.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Exercicios/Desafio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Exercicios/Desafio.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Exercicios/Exercicio4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Exercicios/Exercicio4.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Exercicios/exercicio3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Exercicios/exercicio3.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/amand/IdeaProjects/dsv_kotlin",
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -54,9 +51,9 @@
     "settings.editor.selected.configurable": "Console"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.ExceptionKt">
-    <configuration name="DesafioKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicios.DesafioKt" />
+  <component name="RunManager" selected="Kotlin.Desafio01Kt">
+    <configuration name="Desafio01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicios.Desafio01Kt" />
       <module name="dsv_kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,22 +66,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicios.Exercicio4Kt" />
+    <configuration name="GenericsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaisSobreParametros.GenericsKt" />
       <module name="dsv_kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicios.Exercicio5Kt" />
+    <configuration name="ParametrosKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaisSobreParametros.ParametrosKt" />
       <module name="dsv_kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryCatchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="excessoes.TryCatchKt" />
+    <configuration name="RecebendoParametrosKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaisSobreParametros.RecebendoParametrosKt" />
       <module name="dsv_kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Desafio01Kt" />
+        <item itemvalue="Kotlin.GenericsKt" />
+        <item itemvalue="Kotlin.RecebendoParametrosKt" />
+        <item itemvalue="Kotlin.ParametrosKt" />
         <item itemvalue="Kotlin.ExceptionKt" />
-        <item itemvalue="Kotlin.TryCatchKt" />
-        <item itemvalue="Kotlin.DesafioKt" />
-        <item itemvalue="Kotlin.Exercicio5Kt" />
-        <item itemvalue="Kotlin.Exercicio4Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673972224934</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Exceções e tratamento de nulls">
+      <created>1674062710200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674062710201</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,7 +144,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Iniciando repositório" />
     <MESSAGE value="Finalizando o Contole de fluxo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizando o Contole de fluxo" />
+    <MESSAGE value="Exceções e tratamento de nulls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceções e tratamento de nulls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
