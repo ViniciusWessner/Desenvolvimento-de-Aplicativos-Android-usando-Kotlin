@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Iniciando na orientação a objetos">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/OrientacaoaObjetos/Classe/init.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/OrientacaoaObjetos/GeteSet/ClasseJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/OrientacaoaObjetos/GeteSet/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/OrientacaoaObjetos/GeteSet/Planeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/OrientacaoaObjetos/GeteSet/chamando.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/OrientacaoaObjetos/Enum/enum.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -52,9 +49,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.InitKt">
+  <component name="RunManager" selected="Kotlin.EnumKt">
     <configuration name="Desafio01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicios.Desafio01Kt" />
+      <module name="dsv_kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OrientacaoaObjetos.Enum.EnumKt" />
       <module name="dsv_kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,13 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParametrosKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaisSobreParametros.ParametrosKt" />
-      <module name="dsv_kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RecebendoParametrosKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MaisSobreParametros.RecebendoParametrosKt" />
       <module name="dsv_kotlin" />
@@ -90,11 +87,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.EnumKt" />
         <item itemvalue="Kotlin.InitKt" />
         <item itemvalue="Kotlin.Desafio01Kt" />
         <item itemvalue="Kotlin.GenericsKt" />
         <item itemvalue="Kotlin.RecebendoParametrosKt" />
-        <item itemvalue="Kotlin.ParametrosKt" />
       </list>
     </recent_temporary>
   </component>
