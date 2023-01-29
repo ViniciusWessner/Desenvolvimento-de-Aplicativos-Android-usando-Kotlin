@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Iniciando na orientação a objetos">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/OrientacaoaObjetos/Enum/enum.kt" afterDir="false" />
+    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Aprendendo sobre ENUM class">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/OrientacaoaObjetos/Dataclasss/DataClass.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,21 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.EnumKt">
+  <component name="RunManager" selected="Kotlin.DataClassKt (1)">
+    <configuration name="DataClassKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataClassKt" />
+      <module name="dsv_kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OrientacaoaObjetos.Dataclasss.DataClassKt" />
+      <module name="dsv_kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Desafio01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicios.Desafio01Kt" />
       <module name="dsv_kotlin" />
@@ -64,13 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaisSobreParametros.GenericsKt" />
-      <module name="dsv_kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InitKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OrientacaoaObjetos.Classe.InitKt" />
       <module name="dsv_kotlin" />
@@ -78,20 +85,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecebendoParametrosKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaisSobreParametros.RecebendoParametrosKt" />
-      <module name="dsv_kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.DataClassKt (1)" />
+        <item itemvalue="Kotlin.DataClassKt" />
         <item itemvalue="Kotlin.EnumKt" />
         <item itemvalue="Kotlin.InitKt" />
         <item itemvalue="Kotlin.Desafio01Kt" />
-        <item itemvalue="Kotlin.GenericsKt" />
-        <item itemvalue="Kotlin.RecebendoParametrosKt" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674664704959</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Aprendendo sobre ENUM class">
+      <created>1674912216182</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674912216182</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,7 +166,8 @@
     <MESSAGE value="Exceções e tratamento de nulls" />
     <MESSAGE value="Aprendendo mais sobre funcoes, Any, Unit e Nothing" />
     <MESSAGE value="Iniciando na orientação a objetos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iniciando na orientação a objetos" />
+    <MESSAGE value="Aprendendo sobre ENUM class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aprendendo sobre ENUM class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
