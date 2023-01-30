@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Aprendendo sobre ENUM class">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/OrientacaoaObjetos/Dataclasss/DataClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/OrientacaoaObjetos/Lateinit/lateinit.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/OrientacaoaObjetos/Whith/Whith.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/OrientacaoaObjetos/Whith/Whith.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.DataClassKt (1)">
+  <component name="RunManager" selected="Kotlin.LateinitKt">
     <configuration name="DataClassKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataClassKt" />
       <module name="dsv_kotlin" />
@@ -59,13 +60,6 @@
     </configuration>
     <configuration name="DataClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OrientacaoaObjetos.Dataclasss.DataClassKt" />
-      <module name="dsv_kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Desafio01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicios.Desafio01Kt" />
       <module name="dsv_kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,13 +79,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LateinitKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OrientacaoaObjetos.Lateinit.LateinitKt" />
+      <module name="dsv_kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LateinitKt" />
         <item itemvalue="Kotlin.DataClassKt (1)" />
         <item itemvalue="Kotlin.DataClassKt" />
         <item itemvalue="Kotlin.EnumKt" />
         <item itemvalue="Kotlin.InitKt" />
-        <item itemvalue="Kotlin.Desafio01Kt" />
       </list>
     </recent_temporary>
   </component>
