@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Herança">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ClasseAbastrata/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ClasseAnonima/Bonus.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ClasseAnonima/BonusJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ClasseAnonima/Programa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ClasseAnonima/anonyma.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Object/ExemploJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Object/Object.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Object/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Polimorfismo/Polimorfismo.kt" afterDir="false" />
+    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Orientação a Objetos e herança">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Override/file.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Override/file.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/POOheranca/heranca.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/POOheranca/heranca.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +14,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Interface" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -66,7 +56,7 @@
       <recent name="C:\Users\amand\IdeaProjects\dsv_kotlin\src\main\kotlin\POOheranca" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.AnonymaKt">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="ExemploJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Object.ExemploJava" />
       <module name="dsv_kotlin" />
@@ -87,13 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataClassKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataClassKt" />
-      <module name="dsv_kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HerancaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="POOheranca.HerancaKt" />
       <module name="dsv_kotlin" />
@@ -108,13 +91,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Colecoes.MainKt" />
+      <module name="dsv_kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.AnonymaKt" />
         <item itemvalue="Application.ExemploJava" />
         <item itemvalue="Kotlin.HerancaKt" />
         <item itemvalue="Kotlin.LateinitKt" />
-        <item itemvalue="Kotlin.DataClassKt (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675096851409</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Orientação a Objetos e herança">
+      <created>1675442390538</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675442390538</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,7 +203,8 @@
     <MESSAGE value="Aprendendo sobre ENUM class" />
     <MESSAGE value="aprendendo sobre lateinit e with" />
     <MESSAGE value="Herança" />
-    <option name="LAST_COMMIT_MESSAGE" value="Herança" />
+    <MESSAGE value="Orientação a Objetos e herança" />
+    <option name="LAST_COMMIT_MESSAGE" value="Orientação a Objetos e herança" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -219,21 +217,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/ClasseAnonima/anonyma.kt</url>
-          <line>8</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/ClasseAnonima/anonyma.kt</url>
-          <line>18</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/ClasseAnonima/anonyma.kt</url>
-          <line>22</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
