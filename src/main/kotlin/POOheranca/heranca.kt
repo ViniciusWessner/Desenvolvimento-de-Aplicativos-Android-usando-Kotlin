@@ -16,7 +16,7 @@ MODIFICADORES DE VISIBILIDADE
 
 * */
 
-open class Eletronico(var marca: String, private var modelo: String) {
+open class Eletronico(var marca: String) {
     //agora o ativar corrente pertence somente ao eletronico
     private fun ativarCorrente(){
         println("ativando a corrente")
