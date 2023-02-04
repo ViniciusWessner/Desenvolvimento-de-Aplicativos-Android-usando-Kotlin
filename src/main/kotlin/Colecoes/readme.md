@@ -3,9 +3,17 @@
 - List
 > Com o list criamos uma lista de valores para armazenar por exemplo: um app pode ter listas de notícias, músicas, eventos da agenda ou postagens de mídia social. <br><br>
 > Possuimos duas opções de utiliza-los: <br>
-> - Através de uma lista não mutavel "listOf" <br>
-> - Também conseguimos criar uma lista Mutável "mutableListOf"
->
+
+```kotlin
+    val lista1 = listOf(12, 10, 9, 8, 9, 4)
+```
+ou
+
+```kotlin
+   val lista2 = mutableListOf(1,50,30,45,90,)
+```
+
+
 
 - Map
 - Set
