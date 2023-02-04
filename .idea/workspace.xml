@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Adicionando readme" />
+    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="update readme">
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/AnyeCount.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/Average.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/DistinctSortedReversed.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/Filter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/FirseLast.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/ForEach.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/Mapp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/MaxeMin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/SumSumof.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/TakeeTakelast.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ProjetoPortaria/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Colecoes/Colecoes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Colecoes/Map.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/Map.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Colecoes/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +27,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -53,43 +70,37 @@
       <recent name="C:\Users\amand\IdeaProjects\dsv_kotlin\src\main\kotlin\POOheranca" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MapKt">
-    <configuration name="ExemploJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Object.ExemploJava" />
-      <module name="dsv_kotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Object.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnonymaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClasseAnonima.AnonymaKt" />
+  <component name="RunManager" selected="Kotlin.DistinctSortedReversedKt">
+    <configuration name="DistinctSortedReversedKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Colecoes.DistinctSortedReversedKt" />
       <module name="dsv_kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HerancaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="POOheranca.HerancaKt" />
+    <configuration name="ForEachKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Colecoes.ForEachKt" />
       <module name="dsv_kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Colecoes.MainKt" />
+    <configuration name="MappKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Colecoes.MappKt" />
       <module name="dsv_kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Colecoes.MapKt" />
+    <configuration name="MaxeMinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Colecoes.MaxeMinKt" />
+      <module name="dsv_kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TakeeTakelastKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Colecoes.TakeeTakelastKt" />
       <module name="dsv_kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MapKt" />
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.AnonymaKt" />
-        <item itemvalue="Application.ExemploJava" />
-        <item itemvalue="Kotlin.HerancaKt" />
+        <item itemvalue="Kotlin.DistinctSortedReversedKt" />
+        <item itemvalue="Kotlin.MappKt" />
+        <item itemvalue="Kotlin.MaxeMinKt" />
+        <item itemvalue="Kotlin.ForEachKt" />
+        <item itemvalue="Kotlin.TakeeTakelastKt" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675516475588</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Adicionando readme">
+      <created>1675516666295</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675516666295</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update readme">
+      <created>1675516837946</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1675516837946</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +250,8 @@
     <MESSAGE value="Aprendendo sobre coleções" />
     <MESSAGE value="Coleções e listas" />
     <MESSAGE value="Adicionando readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando readme" />
+    <MESSAGE value="update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -5,9 +5,7 @@ fun main() {
     //chave -> valor
 
     /*
-
         Com o map basicamnete definimos uma chave para cada valor (chave -> valor)
-
     * */
 
     val map1 = mapOf<String, String>(Pair("Franca", "paris"), Pair("Alemanha", "Berlin"), Pair("Brasil", "Rio de Janeiro"))
