@@ -1,10 +1,10 @@
-package Colecoes
+package ClasseAnonima.Colecoes
 
 fun main() {
     //list off,nao conseguimos alterar ela ou modificar
     val lista1 = listOf(12, 10, 9, 8, 9, 4)
 
-    //nao conseguimos modificar ela, é uma lista que conseguimos alterar
+    // conseguimos modificar ela, é uma lista que conseguimos alterar
    val lista2 = mutableListOf(1,50,30,45,90,)
 
 

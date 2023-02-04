@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Orientação a Objetos e herança">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/main.kt" afterDir="false" />
+    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Aprendendo sobre coleções">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/Colecoes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/Map.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/set.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Colecoes/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,25 +41,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/amand/IdeaProjects/dsv_kotlin",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/amand/IdeaProjects/dsv_kotlin&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\amand\IdeaProjects\dsv_kotlin\src\main\kotlin\POOheranca" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="Kotlin.MapKt">
     <configuration name="ExemploJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Object.ExemploJava" />
       <module name="dsv_kotlin" />
@@ -84,13 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LateinitKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OrientacaoaObjetos.Lateinit.LateinitKt" />
-      <module name="dsv_kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Colecoes.MainKt" />
       <module name="dsv_kotlin" />
@@ -98,13 +94,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Colecoes.MapKt" />
+      <module name="dsv_kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MapKt" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.AnonymaKt" />
         <item itemvalue="Application.ExemploJava" />
         <item itemvalue="Kotlin.HerancaKt" />
-        <item itemvalue="Kotlin.LateinitKt" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675442390538</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Aprendendo sobre coleções">
+      <created>1675444671672</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675444671672</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +214,8 @@
     <MESSAGE value="aprendendo sobre lateinit e with" />
     <MESSAGE value="Herança" />
     <MESSAGE value="Orientação a Objetos e herança" />
-    <option name="LAST_COMMIT_MESSAGE" value="Orientação a Objetos e herança" />
+    <MESSAGE value="Aprendendo sobre coleções" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aprendendo sobre coleções" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
