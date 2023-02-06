@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="update readme">
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/AnyeCount.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/Average.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/DistinctSortedReversed.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/Filter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/FirseLast.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/ForEach.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/Mapp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/MaxeMin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/SumSumof.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/TakeeTakelast.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ProjetoPortaria/main.kt" afterDir="false" />
+    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Projeto Portaria">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ProjetoPortaria/Console.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ProjetoPortaria/Portaria.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Colecoes/Colecoes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Colecoes/Map.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/Map.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Colecoes/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Colecoes/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ProjetoPortaria/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ProjetoPortaria/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +18,8 @@
         <option value="Kotlin Interface" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -70,7 +58,7 @@
       <recent name="C:\Users\amand\IdeaProjects\dsv_kotlin\src\main\kotlin\POOheranca" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.DistinctSortedReversedKt">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="DistinctSortedReversedKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Colecoes.DistinctSortedReversedKt" />
       <module name="dsv_kotlin" />
@@ -80,6 +68,13 @@
     </configuration>
     <configuration name="ForEachKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Colecoes.ForEachKt" />
+      <module name="dsv_kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProjetoPortaria.MainKt" />
       <module name="dsv_kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,20 +94,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TakeeTakelastKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Colecoes.TakeeTakelastKt" />
-      <module name="dsv_kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.DistinctSortedReversedKt" />
         <item itemvalue="Kotlin.MappKt" />
         <item itemvalue="Kotlin.MaxeMinKt" />
         <item itemvalue="Kotlin.ForEachKt" />
-        <item itemvalue="Kotlin.TakeeTakelastKt" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675516837946</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Colecoes e Funcoes">
+      <created>1675538504171</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1675538504171</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Projeto Portaria">
+      <created>1675538522636</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1675538522636</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,7 +253,9 @@
     <MESSAGE value="Coleções e listas" />
     <MESSAGE value="Adicionando readme" />
     <MESSAGE value="update readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="update readme" />
+    <MESSAGE value="Colecoes e Funcoes" />
+    <MESSAGE value="Projeto Portaria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto Portaria" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
