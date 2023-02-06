@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Projeto Portaria">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ProjetoPortaria/Console.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ProjetoPortaria/Portaria.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ProjetoPortaria/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ProjetoPortaria/main.kt" afterDir="false" />
-    </list>
+    <list default="true" id="8382bf2c-f296-44c1-b6a3-285245feb952" name="Changes" comment="Refatorando nosso projeto da portaria de um evento utilizando a orientação a objetos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675538522636</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Refatorando nosso projeto da portaria de um evento utilizando a orientação a objetos">
+      <created>1675704522181</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1675704522181</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,7 +257,8 @@
     <MESSAGE value="update readme" />
     <MESSAGE value="Colecoes e Funcoes" />
     <MESSAGE value="Projeto Portaria" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projeto Portaria" />
+    <MESSAGE value="Refatorando nosso projeto da portaria de um evento utilizando a orientação a objetos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatorando nosso projeto da portaria de um evento utilizando a orientação a objetos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
